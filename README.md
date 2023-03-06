@@ -1,3 +1,7 @@
+Alysides full node handler used in building Insight. For installation instructions see the [Insight API README](https://github.com/VleppoOfficial/insight-api-alysides#readme).
+
+Original readme below:
+
 Bitcore Node
 ============
 
