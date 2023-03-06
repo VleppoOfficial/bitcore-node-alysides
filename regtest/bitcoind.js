@@ -7,7 +7,7 @@ var index = require('..');
 var log = index.log;
 
 var chai = require('chai');
-var bitcore = require('bitcore-lib-komodo');
+var bitcore = require('bitcore-lib-alysides');
 var BN = bitcore.crypto.BN;
 var async = require('async');
 var rimraf = require('rimraf');

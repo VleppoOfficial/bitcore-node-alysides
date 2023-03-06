@@ -9,7 +9,7 @@ var log = index.log;
 log.debug = function() {};
 
 var chai = require('chai');
-var bitcore = require('bitcore-lib-komodo');
+var bitcore = require('bitcore-lib-alysides');
 var rimraf = require('rimraf');
 var node;
 
