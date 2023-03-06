@@ -63,7 +63,7 @@ describe('P2P Functionality', function() {
         log.error('error="%s"', err.message);
       });
 
-      log.info('Waiting for Komodo to initialize...');
+      log.info('Waiting for Alysides to initialize...');
 
       bitcoind.start(function(err) {
         if (err) {

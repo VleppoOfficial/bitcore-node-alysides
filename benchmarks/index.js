@@ -5,7 +5,7 @@ var bitcoin = require('bitcoin');
 var async = require('async');
 var maxTime = 20;
 
-console.log('Komodo Service native interface vs. Komodo JSON RPC interface');
+console.log('Alysides Service native interface vs. Alysides JSON RPC interface');
 console.log('----------------------------------------------------------------------');
 
 // To run the benchmarks a fully synced Bitcore Core directory is needed. The RPC comands
@@ -43,12 +43,12 @@ bitcoind.start(function(err) {
   if (err) {
     throw err;
   }
-  console.log('Komodo started');
+  console.log('Alysides started');
 });
 
 bitcoind.on('ready', function() {
 
-  console.log('Komodo ready');
+  console.log('Alysides ready');
 
   var client = new bitcoin.Client({
     host: 'localhost',
