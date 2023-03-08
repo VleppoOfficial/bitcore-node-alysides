@@ -342,7 +342,6 @@ describe('#start', function() {
     var sandbox;
     var spawn;
     var setup;
-    var registerSync;
     var registerExit;
     var start = require('../../lib/scaffold/start');
     var options = {
